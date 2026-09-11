@@ -1,0 +1,639 @@
+:root {
+  --bg: #fbf9f4;
+  --ink: #1b1a17;
+  --muted: #6e675c;
+  --accent: #a8481f;
+  --border: #e7e0d2;
+  --quote-bg: #f3e9dd;
+  --quote-ink: #6e3a1d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Schibsted Grotesk", sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.kicker {
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Nav */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 24px 6vw;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.nav .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav .brand-photo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+
+.nav .links {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav .links a {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.nav .links a:hover {
+  color: var(--ink);
+}
+
+.nav .socials {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.nav .socials a {
+  color: var(--muted);
+  display: inline-flex;
+}
+
+.nav .socials a:hover {
+  color: var(--accent);
+}
+
+/* Hero */
+.hero {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 96px 6vw 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.hero .prompt {
+  color: var(--accent);
+  font-family: "Inter", monospace;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  line-height: 1.62;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  min-height: 1.1em;
+}
+
+.thinking {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.thinking .think-icon {
+  color: var(--accent);
+  display: inline-block;
+  animation: spin 1.4s linear infinite;
+}
+
+.thinking .ellipsis span {
+  animation: blink 1.2s infinite;
+  opacity: 0;
+}
+
+.thinking .ellipsis span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.thinking .ellipsis span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.thinking .ellipsis span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes blink {
+  0%,
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  margin-left: 4px;
+  background: var(--ink);
+  animation: caret 0.9s steps(1) infinite;
+  align-self: baseline;
+  height: 1em;
+  vertical-align: -0.1em;
+}
+
+.cursor.done {
+  animation: none;
+  opacity: 0;
+}
+
+@keyframes caret {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* About */
+.about {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 80px 6vw;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about .photo {
+  width: 220px;
+  height: 220px;
+  min-width: 220px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  object-fit: cover;
+}
+
+.about .text-col {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.about h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.about p {
+  color: var(--muted);
+  line-height: 1.62;
+  font-size: 17px;
+}
+
+.hand-link {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: none;
+  padding-bottom: 4px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 7px;
+}
+
+.hand-link.blue {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M0 5.4 C 10 4, 20 6.3, 30 4.8 C 45 3.2, 60 6.4, 75 4.4 C 85 3.6, 93 5.8, 100 4.8' stroke='%233B82F6' fill='none' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+.hand-link.green {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M0 4.6 C 10 6, 22 3.7, 33 5.2 C 48 6.8, 62 3.6, 76 5.6 C 86 6.4, 93 4.2, 100 5.2' stroke='%2322C55E' fill='none' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+.hand-link.orange {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M0 5.8 C 10 4.2, 20 6.6, 30 5 C 45 3.4, 60 6.6, 75 4.6 C 85 3.8, 93 6, 100 5' stroke='%23A8481F' fill='none' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+/* Work With Me */
+.work {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 72px 6vw;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.work .kicker {
+  color: var(--accent);
+}
+
+.work p:not(.kicker) {
+  color: var(--muted);
+  line-height: 1.62;
+  font-size: 17px;
+}
+
+.work-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.work-list li {
+  position: relative;
+  padding-left: 22px;
+  color: var(--muted);
+  line-height: 1.62;
+  font-size: 17px;
+}
+
+.work-list li::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 12px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.cta {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding-top: 8px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background: #8f3c19;
+}
+
+/* Things I Make */
+.make {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 80px 6vw;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.make h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.section-label {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.entry-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.entry {
+  display: flex;
+  gap: 28px;
+  padding: 20px 0;
+  border-top: 1px solid var(--border);
+}
+
+.entry:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.entry .date,
+.entry .tag {
+  color: var(--muted);
+  font-size: 13px;
+  width: 120px;
+  min-width: 120px;
+}
+
+.entry .tag {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.entry .body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.entry .title {
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.entry .title:hover,
+.stack-item .title:hover span,
+.quote-entry .head .title:hover {
+  text-decoration: underline;
+}
+
+.projgrid .title {
+  font-size: 19px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ext-icon {
+  color: var(--muted);
+  flex: none;
+}
+
+.projgrid a.title:hover .ext-icon {
+  color: var(--accent);
+}
+
+.entry .desc {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.gap {
+  height: 10px;
+}
+
+/* What I Like */
+.like {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 80px 6vw 96px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.like h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.like > p {
+  color: var(--muted);
+  line-height: 1.62;
+  font-size: 16px;
+}
+
+.subsection {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 26px;
+}
+
+.subsection h3 {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.stack-list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.stack-item {
+  display: flex;
+  gap: 24px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.stack-item .title {
+  width: 203px;
+  min-width: 203px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.stack-item .icon {
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  object-fit: contain;
+  flex: none;
+}
+
+.stack-item .title span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.stack-item .desc {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Books shelf */
+.shelf {
+  padding-top: 10px;
+}
+
+.covers {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.covers img {
+  width: 96px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 1px 2px 2px 1px;
+  border: 1px solid var(--border);
+  transition: transform 0.15s ease;
+}
+
+.covers a:hover img {
+  transform: translateY(-4px);
+}
+
+.plank {
+  height: 10px;
+  background: var(--ink);
+  border-radius: 1px;
+  margin-top: 0;
+}
+
+/* Favorite posts / quotes */
+.quote-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.quote-entry .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.quote-entry .head .title {
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.quote-entry .head .source {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.quote {
+  background: var(--quote-bg);
+  border-left: 3px solid var(--accent);
+  padding: 10px 16px;
+}
+
+.quote p {
+  color: var(--quote-ink);
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+footer {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 32px 6vw 48px;
+  color: var(--muted);
+  font-size: 13px;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: 34px;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .entry .date,
+  .entry .tag {
+    width: 80px;
+    min-width: 80px;
+  }
+  .stack-item .title {
+    width: 100%;
+  }
+}

@@ -1,0 +1,2162 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "iKT3i",
+      "x": 2760,
+      "y": 0,
+      "name": "Option C — Use This",
+      "clip": true,
+      "width": 1120,
+      "fill": "#FBF9F4",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "NW9QH",
+          "name": "Nav",
+          "width": "fill_container",
+          "stroke": "#E7E0D2",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            30,
+            112
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "XQJcr",
+              "fill": "#1B1A17",
+              "content": "Jordan Haines",
+              "fontFamily": "Schibsted Grotesk",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "ngxg5",
+              "name": "links",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "X6i9V",
+                  "fill": "#6E675C",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "VxYMY",
+                  "fill": "#6E675C",
+                  "content": "Work With Me",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "u7eoc",
+                  "fill": "#6E675C",
+                  "content": "Things I Make",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "bVkCV",
+                  "fill": "#6E675C",
+                  "content": "What I Like",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yPegK",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 22,
+          "padding": [
+            116,
+            112,
+            104,
+            112
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "seweZ",
+              "fill": "#A8481F",
+              "textGrowth": "fixed-width-height",
+              "width": 900,
+              "height": 39,
+              "content": ">Claude: add a cute, techy, first-person tagline to my website masthead. I'm a CTO, and this website promotes my consulting/fractional CTO work.",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "XR7vy",
+              "fill": "#1B1A17",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "I help teams turn messy problems into shipped products.",
+              "lineHeight": 1.1,
+              "fontFamily": "Schibsted Grotesk",
+              "fontSize": 50,
+              "fontWeight": "600",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BuH4i",
+          "name": "About",
+          "width": "fill_container",
+          "gap": 40,
+          "padding": [
+            100,
+            112
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "s3nC9",
+              "name": "photo",
+              "width": 140,
+              "height": 140,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/jordan-headshot.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 70,
+              "stroke": "#E7E0D2",
+              "strokeWidth": 1
+            },
+            {
+              "type": "frame",
+              "id": "gvlIO",
+              "name": "textCol",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yslgw",
+                  "fill": "#1B1A17",
+                  "content": "Hi, I'm Jordan.",
+                  "fontFamily": "Schibsted Grotesk",
+                  "fontSize": 30,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "s2fBZf",
+                  "fill": "#6E675C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "I'm a full-time CTO (with Run for Something), a consulting fractional CTO (most recently for LingroLearning), and consistently just one post away from being what I'd consider a writer. More importantly, I'm a dad in Minneapolis who loves history, good coffee, and building things on my computer. In a good week, you can catch me exploring all three with my hobby project, Historio.",
+                  "lineHeight": 1.62,
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "k2tZx",
+          "name": "Work With Me",
+          "width": "fill_container",
+          "stroke": "#E7E0D2",
+          "strokeWidth": {
+            "top": 1,
+            "bottom": 1
+          },
+          "layout": "vertical",
+          "gap": 22,
+          "padding": [
+            92,
+            112
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "DkT6y",
+              "fill": "#A8481F",
+              "content": "LET'S SOLVE A PROBLEM TOGETHER",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "M2x3T",
+              "fill": "#6E675C",
+              "textGrowth": "fixed-width",
+              "width": 760,
+              "content": "My capacity to take on consulting work is very limited (see above RE kids). That said, I have a hard time saying no using novel tech to solve the right challenge with the right people.\n\nThe right challenges include:\n- How to get the right people elected to public office\n- How to empower local leaders to better serve their communities\n- How to each kids technical things\n- How to better connect histories, and apply them to the present\n\nThe right people include: Collaborative creatives with a clear sense of how their impact will better others.",
+              "lineHeight": 1.62,
+              "fontFamily": "Inter",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "uWOOQ",
+              "name": "cta",
+              "gap": 14,
+              "padding": [
+                8,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fWlVt",
+                  "name": "b1",
+                  "fill": "#A8481F",
+                  "cornerRadius": 5,
+                  "padding": [
+                    15,
+                    25
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PLxvn",
+                      "fill": "#FFFFFF",
+                      "content": "Email me about a project →",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TtX7m",
+                  "name": "b2",
+                  "cornerRadius": 5,
+                  "stroke": "#1B1A17",
+                  "strokeWidth": 1,
+                  "padding": [
+                    15,
+                    25
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NBOBe",
+                      "fill": "#1B1A17",
+                      "content": "Book office hours for one-off requests",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NXiIc",
+          "name": "Things I Make",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            100,
+            112
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "I2T3lH",
+              "fill": "#A8481F",
+              "content": "THINGS I CREATE",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "ixqDT",
+              "fill": "#1B1A17",
+              "content": "Writing and projects",
+              "fontFamily": "Schibsted Grotesk",
+              "fontSize": 30,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "lsozi",
+              "name": "ph",
+              "fill": "#6E675C",
+              "content": "POSTS",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "EtZKm",
+              "name": "posts",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Rt9FH",
+                  "name": "Who Should Govern California (According to AI)?",
+                  "width": "fill_container",
+                  "stroke": "#E7E0D2",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 28,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "r8hlu",
+                      "fill": "#6E675C",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "Jun 2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AuSB9",
+                      "name": "t",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "geJJb",
+                          "fill": "#1B1A17",
+                          "content": "Who Should Govern California (According to AI)?",
+                          "fontFamily": "Schibsted Grotesk",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fWkEr",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "What voters hear when they ask a chatbot about the 2026 governor's race — and how fast that narrative moves.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m8Yl3",
+                  "name": "Living in Minneapolis",
+                  "width": "fill_container",
+                  "stroke": "#E7E0D2",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 28,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "e8bif",
+                      "fill": "#6E675C",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "Jan 2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "D99arx",
+                      "name": "t",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bnaM9",
+                          "fill": "#1B1A17",
+                          "content": "Living in Minneapolis",
+                          "fontFamily": "Schibsted Grotesk",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RbKIX",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "I'm Black, but a cop may see me as brown. Which might matter, might not. Here's a bit of what it is like.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Bx3R7",
+                  "name": "2026: Starving the Noise to Feed My Curiosity",
+                  "width": "fill_container",
+                  "stroke": "#E7E0D2",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 28,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aLQp6",
+                      "fill": "#6E675C",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "Jan 2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cRfwQ",
+                      "name": "t",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Lqe6Z",
+                          "fill": "#1B1A17",
+                          "content": "2026: Starving the Noise to Feed My Curiosity",
+                          "fontFamily": "Schibsted Grotesk",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Lqw93",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A new approach to goals that may actually work.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w0ULJG",
+                  "name": "The Geometry of Ideas",
+                  "width": "fill_container",
+                  "stroke": "#E7E0D2",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 28,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "I7Pii",
+                      "fill": "#6E675C",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "Nov 2024",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n2xQv",
+                      "name": "t",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Z7nlC",
+                          "fill": "#1B1A17",
+                          "content": "The Geometry of Ideas",
+                          "fontFamily": "Schibsted Grotesk",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RfGXN",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A little post I almost didn't publish, on a little idea I almost didn't explore.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dsCz5",
+                  "name": "Building Historio: Which Feature First?",
+                  "width": "fill_container",
+                  "stroke": "#E7E0D2",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 28,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n4Xr30",
+                      "fill": "#6E675C",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "Oct 2024",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J0CBe",
+                      "name": "t",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JpfJZ",
+                          "fill": "#1B1A17",
+                          "content": "Building Historio: Which Feature First?",
+                          "fontFamily": "Schibsted Grotesk",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SK05u",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "From a fresh NextJS project to a landing page on Cloudflare, and how I picked what to build first.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PzLye",
+                  "name": "The Early Product Cycle",
+                  "width": "fill_container",
+                  "stroke": "#E7E0D2",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "gap": 28,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "alruY",
+                      "fill": "#6E675C",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "Oct 2024",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c1uIZ",
+                      "name": "t",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LsDGX",
+                          "fill": "#1B1A17",
+                          "content": "The Early Product Cycle",
+                          "fontFamily": "Schibsted Grotesk",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "x2RRtG",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "How to prioritize features in a way that gets your new product off the ground.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HLIvq",
+              "name": "g",
+              "width": "fill_container",
+              "height": 10
+            },
+            {
+              "type": "text",
+              "id": "x7gRr",
+              "name": "prh",
+              "fill": "#6E675C",
+              "content": "CURRENT PROJECTS",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "dAOjU",
+              "name": "projgrid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xnRtK",
+                  "name": "CampSight",
+                  "width": "fill_container",
+                  "stroke": "#E7E0D2",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 28,
+                  "padding": [
+                    22,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Y201c",
+                      "fill": "#A8481F",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "GETCAMPSIGHT.AI",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "p99srn",
+                      "name": "t",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aeiz2",
+                          "fill": "#1B1A17",
+                          "content": "CampSight",
+                          "fontFamily": "Schibsted Grotesk",
+                          "fontSize": 19,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "n59WdL",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Answer engine optimization for campaigns. See what voters hear when they ask AI about a race — and the playbook to change it.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ztP5X",
+                  "name": "Lingro Convobots",
+                  "width": "fill_container",
+                  "stroke": "#E7E0D2",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 28,
+                  "padding": [
+                    22,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m9YcPH",
+                      "fill": "#A8481F",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "IN PROGRESS",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CYVpI",
+                      "name": "t",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "shKlF",
+                          "fill": "#1B1A17",
+                          "content": "Lingro Convobots",
+                          "fontFamily": "Schibsted Grotesk",
+                          "fontSize": 19,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xxP64",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Real-time conversation bots for students learning a new language.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bNrB4",
+                  "name": "Historio",
+                  "width": "fill_container",
+                  "stroke": "#E7E0D2",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "gap": 28,
+                  "padding": [
+                    22,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JV2YY",
+                      "fill": "#A8481F",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "HISTORIO.APP",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Iunyc",
+                      "name": "t",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aA8EO",
+                          "fill": "#1B1A17",
+                          "content": "Historio",
+                          "fontFamily": "Schibsted Grotesk",
+                          "fontSize": 19,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JhV4n",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Build timelines and explore history through your favorite books.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TDuYZ",
+          "name": "What I Like",
+          "width": "fill_container",
+          "stroke": "#E7E0D2",
+          "strokeWidth": {
+            "top": 1
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            100,
+            112,
+            116,
+            112
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "cZ1fd",
+              "fill": "#A8481F",
+              "content": "THINGS I USE AND CONSUME",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "Dn8rV",
+              "fill": "#1B1A17",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Tools I Use and Others' Thoughts I Think About",
+              "lineHeight": 1.15,
+              "fontFamily": "Schibsted Grotesk",
+              "fontSize": 30,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "LgIcl",
+              "fill": "#6E675C",
+              "textGrowth": "fixed-width-height",
+              "width": 890,
+              "height": 48,
+              "content": "I'm particular about my tools. I like trying new ways of working, experimenting with new workflows, and finding that productivity hack that actually makes me more productive. ",
+              "lineHeight": 1.62,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "CIh77",
+              "name": "My Stack",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "padding": [
+                26,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lXZwV",
+                  "fill": "#1B1A17",
+                  "content": "My Stack",
+                  "fontFamily": "Schibsted Grotesk",
+                  "fontSize": 21,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "hr29e",
+                  "name": "list",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Tkg5H",
+                      "name": "Notion",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "c2f2w",
+                          "name": "title",
+                          "width": 203,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 3,
+                              "id": "Bxh3i",
+                              "name": "icon",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "icons/notion.png",
+                                "mode": "fit"
+                              },
+                              "width": 15,
+                              "height": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "U3WnP",
+                              "fill": "#1B1A17",
+                              "textGrowth": "fixed-width",
+                              "width": 180,
+                              "content": "Notion",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "ouyuz",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "For my half-written notes, half-thought-out ideas, and half-completed projects. Which used to be a mess, but now claude makes pretty good sense of it all.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PuEms",
+                      "name": "Sunsama",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "EXi7u",
+                          "name": "title",
+                          "width": 203,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 3,
+                              "id": "oC9U5",
+                              "name": "icon",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "icons/sunsama.png",
+                                "mode": "fit"
+                              },
+                              "width": 15,
+                              "height": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "BKy7q",
+                              "fill": "#1B1A17",
+                              "textGrowth": "fixed-width",
+                              "width": 180,
+                              "content": "Sunsama",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "QX3Pl",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "I've tried iterally every todo app, and Sunsama is the one that has stuck. I use it to prioritize weekly objectives and daily tasks. Sunsama provides (and kind forces) the right balance of prioritizing vs doing.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pgPo1",
+                      "name": "Claude & Claude Code",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "K8SDb",
+                          "name": "title",
+                          "width": 203,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 3,
+                              "id": "rw1XB",
+                              "name": "icon",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "icons/claude.png",
+                                "mode": "fit"
+                              },
+                              "width": 15,
+                              "height": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "AoPFO",
+                              "fill": "#1B1A17",
+                              "textGrowth": "fixed-width",
+                              "width": 180,
+                              "content": "Claude & Claude Code",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "sxdsG",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Just trying to be a little more productive before the singularity.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XLho0",
+                      "name": "VSCode",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "tLB6P",
+                          "name": "title",
+                          "width": 203,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 3,
+                              "id": "rEOQT",
+                              "name": "icon",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "icons/vscode.png",
+                                "mode": "fit"
+                              },
+                              "width": 15,
+                              "height": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "olPhR",
+                              "fill": "#1B1A17",
+                              "textGrowth": "fixed-width",
+                              "width": 180,
+                              "content": "VSCode",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "pTetS",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "More for reading than writing code these days. Still the GOAT.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kzciJ",
+                      "name": "Pen.dev",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "P25kJ",
+                          "name": "title",
+                          "width": 203,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 3,
+                              "id": "Pwan9",
+                              "name": "icon",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "icons/pendev.png",
+                                "mode": "fit"
+                              },
+                              "width": 15,
+                              "height": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "htOyF",
+                              "fill": "#1B1A17",
+                              "textGrowth": "fixed-width",
+                              "width": 180,
+                              "content": "Pen.dev",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "rolNc",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Lightweight Figma that claude can control with version controlled files you can save in project repos.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mTBDz",
+                      "name": "Readwise",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "vmkiD",
+                          "name": "title",
+                          "width": 203,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 3,
+                              "id": "A2CsC9",
+                              "name": "icon",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "icons/readwise.png",
+                                "mode": "fit"
+                              },
+                              "width": 15,
+                              "height": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "rKCrp",
+                              "fill": "#1B1A17",
+                              "textGrowth": "fixed-width",
+                              "width": 180,
+                              "content": "Readwise",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "GQK2l",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "To track and sync my notes on Kindle books and articles.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nHhh1",
+                      "name": "Raycast",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "sFu5n",
+                          "name": "title",
+                          "width": 203,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 3,
+                              "id": "X5c4f",
+                              "name": "icon",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "icons/raycast.png",
+                                "mode": "fit"
+                              },
+                              "width": 15,
+                              "height": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "cgL73",
+                              "fill": "#1B1A17",
+                              "textGrowth": "fixed-width",
+                              "width": 180,
+                              "content": "Raycast",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "p9D8BF",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A better Mac Spotlight, with focus mode, snippets, and shortcuts for common app actions.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zgb7Z",
+                      "name": "Xbox Game Pass",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "jXj8c",
+                          "name": "title",
+                          "width": 203,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 3,
+                              "id": "ne1vY",
+                              "name": "icon",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "icons/xbox.png",
+                                "mode": "fit"
+                              },
+                              "width": 15,
+                              "height": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "zBhs2",
+                              "fill": "#1B1A17",
+                              "textGrowth": "fixed-width",
+                              "width": 180,
+                              "content": "Xbox Game Pass",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "vUklJ",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "So I can play Baldur's Gate 3 with my dad.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YQcMC",
+                      "name": "Dot grid notebooks",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "CNE65",
+                          "name": "title",
+                          "width": 203,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "EpUBF",
+                              "name": "icon",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "notebook-pen",
+                              "library": "lucide",
+                              "fill": "#1B1A17"
+                            },
+                            {
+                              "type": "text",
+                              "id": "NBD0W",
+                              "fill": "#1B1A17",
+                              "textGrowth": "fixed-width",
+                              "width": 180,
+                              "content": "Dot grid notebooks",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "UobiR",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Sorry Sunsama, there's truly no better way to lock in on a todo list than a dot grid notebook and pencil (I'll die on the pencil > pen hill).",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "A7MHGq",
+                      "name": "The Economist",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "gap": 24,
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Jfg0A",
+                          "name": "title",
+                          "width": 203,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 3,
+                              "id": "ykILg",
+                              "name": "icon",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "icons/economist.png",
+                                "mode": "fit"
+                              },
+                              "width": 15,
+                              "height": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "PCSD2",
+                              "fill": "#1B1A17",
+                              "textGrowth": "fixed-width",
+                              "width": 180,
+                              "content": "The Economist",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "MmWW8",
+                          "fill": "#6E675C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "My primary source of news. Huge life improvement when I went from reading tweets every 5 minutes to long-form articles every week. The Intelligence is excellent, too.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "p8Wn0",
+              "name": "My Favorite Books",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "padding": [
+                26,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "k8gvmv",
+                  "fill": "#1B1A17",
+                  "content": "My Favorite Books",
+                  "fontFamily": "Schibsted Grotesk",
+                  "fontSize": 21,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "zP2hb",
+                  "name": "shelf2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "padding": [
+                    10,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nEu2S",
+                      "name": "covers2",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "justifyContent": "center",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "r8SYrI",
+                          "name": "Bloodlands",
+                          "width": 96,
+                          "height": 150,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "covers/bloodlands.jpg",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": [
+                            1,
+                            2,
+                            2,
+                            1
+                          ],
+                          "stroke": "#E7E0D2",
+                          "strokeWidth": 1,
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "t1URK",
+                          "name": "The Dawn of Everything",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "heftiba",
+                            "link": "https://unsplash.com/@heftiba",
+                            "author": "Toa Heftiba"
+                          },
+                          "width": 96,
+                          "height": 150,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "covers/dawn-of-everything.jpg",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": [
+                            1,
+                            2,
+                            2,
+                            1
+                          ],
+                          "stroke": "#E7E0D2",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "q9zxa",
+                          "name": "Everything is Illuminated",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "brett_jordan",
+                            "link": "https://unsplash.com/@brett_jordan",
+                            "author": "Brett Jordan"
+                          },
+                          "width": 96,
+                          "height": 150,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "covers/everything-is-illuminated.jpg",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": [
+                            1,
+                            2,
+                            2,
+                            1
+                          ],
+                          "stroke": "#E7E0D2",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vuBcc",
+                          "name": "Four Thousand Weeks",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "brett_jordan",
+                            "link": "https://unsplash.com/@brett_jordan",
+                            "author": "Brett Jordan"
+                          },
+                          "width": 96,
+                          "height": 150,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "covers/four-thousand-weeks.jpg",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": [
+                            1,
+                            2,
+                            2,
+                            1
+                          ],
+                          "stroke": "#E7E0D2",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Q4K9x",
+                          "name": "The Half Has Never Been Told",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "brett_jordan",
+                            "link": "https://unsplash.com/@brett_jordan",
+                            "author": "Brett Jordan"
+                          },
+                          "width": 96,
+                          "height": 150,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "covers/half-has-never-been-told.jpg",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": [
+                            1,
+                            2,
+                            2,
+                            1
+                          ],
+                          "stroke": "#E7E0D2",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "svqpN",
+                          "name": "These Truths",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "brett_jordan",
+                            "link": "https://unsplash.com/@brett_jordan",
+                            "author": "Brett Jordan"
+                          },
+                          "width": 96,
+                          "height": 150,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "covers/these-truths.jpg",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": [
+                            1,
+                            2,
+                            2,
+                            1
+                          ],
+                          "stroke": "#E7E0D2",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cdPBn",
+                          "name": "Sapiens",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "martzzl",
+                            "link": "https://unsplash.com/@martzzl",
+                            "author": "Marcel Strauß"
+                          },
+                          "width": 96,
+                          "height": 150,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "covers/sapiens.jpg",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": [
+                            1,
+                            2,
+                            2,
+                            1
+                          ],
+                          "stroke": "#E7E0D2",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "q2h4t",
+                          "name": "Dead Wake",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "brett_jordan",
+                            "link": "https://unsplash.com/@brett_jordan",
+                            "author": "Brett Jordan"
+                          },
+                          "width": 96,
+                          "height": 150,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "covers/dead-wake.jpg",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": [
+                            1,
+                            2,
+                            2,
+                            1
+                          ],
+                          "stroke": "#E7E0D2",
+                          "strokeWidth": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qZLHO",
+                      "name": "plank2",
+                      "width": "fill_container",
+                      "height": 10,
+                      "fill": "#1B1A17",
+                      "cornerRadius": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QV1v2",
+              "name": "My Favorite Posts",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "padding": [
+                26,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Qybrt",
+                  "fill": "#1B1A17",
+                  "content": "My Favorite Posts",
+                  "fontFamily": "Schibsted Grotesk",
+                  "fontSize": 21,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "CasH7",
+                  "name": "list",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UCVOA",
+                      "name": "There's no such thing as a fresh start",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        16,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Amvjb",
+                          "name": "h",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "i7rh9F",
+                              "fill": "#1B1A17",
+                              "content": "There's no such thing as a fresh start",
+                              "fontFamily": "Schibsted Grotesk",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "AhbuV",
+                              "fill": "#6E675C",
+                              "content": "Oliver Burkeman",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PumQb",
+                          "name": "quote",
+                          "width": "fill_container",
+                          "fill": "#F3E9DD",
+                          "stroke": "#A8481F",
+                          "strokeWidth": {
+                            "left": 3
+                          },
+                          "padding": [
+                            10,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "fTO94",
+                              "fill": "#6E3A1D",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "\"The self you're seeking to transform is the same one that's doing the transforming\"",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Schibsted Grotesk",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "fontStyle": "italic"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IxDi9",
+                      "name": "How to Build Good Habits That Actually Stick",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        16,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "RsqWW",
+                          "name": "h",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Ghy6r",
+                              "fill": "#1B1A17",
+                              "content": "How to Build Good Habits That Actually Stick",
+                              "fontFamily": "Schibsted Grotesk",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "GFkV4",
+                              "fill": "#6E675C",
+                              "content": "Sunsama",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qFJWT",
+                          "name": "quote",
+                          "width": "fill_container",
+                          "fill": "#F3E9DD",
+                          "stroke": "#A8481F",
+                          "strokeWidth": {
+                            "left": 3
+                          },
+                          "padding": [
+                            10,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "tenKf",
+                              "fill": "#6E3A1D",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "\"It's harder to say no than to just do it.\"",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Schibsted Grotesk",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "fontStyle": "italic"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GMKtv",
+                      "name": "Weekly review, AI adoption, and brain modes",
+                      "width": "fill_container",
+                      "stroke": "#E7E0D2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        16,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "xi2Dz",
+                          "name": "h",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "C2qqJ",
+                              "fill": "#1B1A17",
+                              "content": "Weekly review, AI adoption, and brain modes",
+                              "fontFamily": "Schibsted Grotesk",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "iaCe8",
+                              "fill": "#6E675C",
+                              "content": "Luca Rossi",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "er9gw",
+                          "name": "quote",
+                          "width": "fill_container",
+                          "fill": "#F3E9DD",
+                          "stroke": "#A8481F",
+                          "strokeWidth": {
+                            "left": 3
+                          },
+                          "padding": [
+                            10,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "A5Ncaw",
+                              "fill": "#6E3A1D",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "\"You make connections between ideas and turn them into something new. It feels draining but rewarding, like a workout. Every time you create these connections, you're rewiring your brain, improving your mental models.\"",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Schibsted Grotesk",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "fontStyle": "italic"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "47608fd2-17b5-477e-ade3-cb6a624573d8"
+}
